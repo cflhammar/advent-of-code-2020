@@ -1,0 +1,15 @@
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/bin/Debug/net6.0/dec-02
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/bin/Debug/net6.0/dec-02.deps.json
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/bin/Debug/net6.0/dec-02.runtimeconfig.json
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/bin/Debug/net6.0/dec-02.dll
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/bin/Debug/net6.0/dec-02.pdb
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.csproj.AssemblyReference.cache
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.AssemblyInfoInputs.cache
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.AssemblyInfo.cs
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.csproj.CoreCompileInputs.cache
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.dll
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/refint/dec-02.dll
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.pdb
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/dec-02.genruntimeconfig.cache
+/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/dec-02/obj/Debug/net6.0/ref/dec-02.dll
