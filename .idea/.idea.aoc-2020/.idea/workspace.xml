@@ -7,50 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9740f284-da6f-4715-9cc5-13228f4fda1c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/aoc-2020/Days/dec-01/Data/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2020/Days/dec-01/ExpenseReport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2020/Days/dec-01/Solver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2020/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dec-02/ExpenseReport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/bin/Debug/net6.0/AoC2020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/bin/Debug/net6.0/AoC2020.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/bin/Debug/net6.0/AoC2020.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/bin/Debug/net6.0/AoC2020.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/bin/Debug/net6.0/AoC2020.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/AoC2020.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/AoC2020.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/AoC2020.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/AoC2020.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/ref/AoC2020.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/refint/AoC2020.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aoc-2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aoc-2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Dec01/Data/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Dec01/Data/part1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Dec01/ExpenseReport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Dec01/ExpenseReport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Dec01/Solver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Dec01/Solver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/InputReaderHelpers/InputToIntegerArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/InputReaderHelpers/InputToIntegerArray.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aoc-2020.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/bin/Debug/net6.0/dec-01" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/bin/Debug/net6.0/dec-01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/bin/Debug/net6.0/dec-01.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/bin/Debug/net6.0/dec-01.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/bin/Debug/net6.0/dec-01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/bin/Debug/net6.0/aoc-2020.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/bin/Debug/net6.0/dec-01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/bin/Debug/net6.0/aoc-2020.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/bin/Debug/net6.0/dec-01.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/bin/Debug/net6.0/dec-01.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/dec-01.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/aoc-2020.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/dec-01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/dec-01.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/ref/dec-01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/ref/dec-01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/Debug/net6.0/refint/dec-01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/Debug/net6.0/refint/dec-01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/dec-01.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/dec-01.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/dec-01.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/dec-01.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/dec-01.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/dec-01.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-01/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2020/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/bin/Debug/net6.0/dec-02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/bin/Debug/net6.0/dec-02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/bin/Debug/net6.0/dec-02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/bin/Debug/net6.0/dec-02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/dec-02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/ref/dec-02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/ref/dec-02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/refint/dec-02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dec-02/obj/Debug/net6.0/refint/dec-02.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +49,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/aoc-2020/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dec-02/ExpenseReport.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dec-02/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AoC2020/Days/Dec01/ExpenseReport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AoC2020/Days/Dec01/Solver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AoC2020/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AoC2020/InputReaderHelpers/InputToIntegerArray.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,6 +69,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -95,7 +88,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/aoc-2020/aoc-2020.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AoC2020/AoC2020.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -115,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660641960652</updated>
       <workItem from="1660641966872" duration="2622000" />
-      <workItem from="1660649211434" duration="3191000" />
+      <workItem from="1660649211434" duration="9551000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1660642210796</created>

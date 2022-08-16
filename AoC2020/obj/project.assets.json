@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/AoC2020/AoC2020.csproj",
-      "projectName": "aoc2020",
+      "projectName": "AoC2020",
       "projectPath": "/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/AoC2020/AoC2020.csproj",
       "packagesPath": "/Users/fredrik.hammar/.nuget/packages/",
       "outputPath": "/Users/fredrik.hammar/CiK/advent-of-code/aoc-2020/AoC2020/obj/",
