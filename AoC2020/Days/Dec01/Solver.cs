@@ -3,13 +3,15 @@ using AoC2020.InputReaderHelpers;
 
 namespace AoC2020.Days.Dec01;
 
-public class Solver
+public class Solver : IDaySolver
 {
+    public string Date { get; } = "Dec01";
+
     public void PartOne()
     {
         InputToIntegerArray reader = new InputToIntegerArray();
-        var testInput1 = reader.ReadToIntArray("Dec01","part1test1");
-        var input = reader.ReadToIntArray("Dec01","part1");
+        var testInput1 = reader.ReadToIntArray(Date,"part1test1");
+        var input = reader.ReadToIntArray(Date,"part1");
         
         ExpenseReport er = new ExpenseReport();
 
@@ -20,8 +22,8 @@ public class Solver
     public void PartTwo()
     {
         InputToIntegerArray reader = new InputToIntegerArray();
-        var testInput1 = reader.ReadToIntArray("Dec01","part1test1");
-        var input = reader.ReadToIntArray("Dec01","part1");
+        var testInput1 = reader.ReadToIntArray(Date,"part1test1");
+        var input = reader.ReadToIntArray(Date,"part1");
         
         ExpenseReport er = new ExpenseReport();
 
