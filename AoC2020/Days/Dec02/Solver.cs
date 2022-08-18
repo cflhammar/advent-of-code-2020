@@ -10,7 +10,7 @@ public class Solver : IDaySolver
 
     public void PartOne()
     {
-        var reader = new InputToStringArray();
+        var reader = new InputToStringMatrix();
         var testInput = reader.ReadToStringMatrix(Date, "part1test1", " ");
         var input = reader.ReadToStringMatrix(Date, "part1", " ");
         
