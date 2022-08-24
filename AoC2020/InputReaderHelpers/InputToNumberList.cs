@@ -4,7 +4,7 @@ using System.IO;
 
 namespace AoC2020.InputReaderHelpers;
 
-public class InputToIntegerArray
+public class InputToNumberList
 {
     public List<int> ReadToIntArray(string day, string file)
     {

@@ -9,7 +9,7 @@ public class Solver : IDaySolver
 
     public void PartOne()
     {
-        var reader = new InputToIntegerArray();
+        var reader = new InputToNumberList();
         var testInput = reader.ReadToLongArray(Date, "part1test1");
         var input = reader.ReadToLongArray(Date, "part1");
 
@@ -20,7 +20,7 @@ public class Solver : IDaySolver
 
     public void PartTwo()
     {
-        var reader = new InputToIntegerArray();
+        var reader = new InputToNumberList();
         var testInput = reader.ReadToLongArray(Date, "part1test1");
         var input = reader.ReadToLongArray(Date, "part1");
         
