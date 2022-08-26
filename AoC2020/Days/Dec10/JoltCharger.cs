@@ -35,8 +35,8 @@ public class JoltCharger
 
 
     public long FindAllPossibleCombinations()
-    {
-        SortAndArrangeInput();
+    { 
+        SortAndArrangeInput(); 
         return FindValidWays();
     }
 
@@ -60,35 +60,6 @@ public class JoltCharger
         }
 
         Memory[index] = sum;
-        return sum;
-    }
-    
-    
-    
-    
-
-    private long FindValidCombination(int currentJoltage)
-    {
-        if (currentJoltage == Input.Max())
-        {
-            return 1;
-        }
-
-        var contenders = Input.Where(x => x - currentJoltage < 4 && x - currentJoltage > 0);
-
-        if (!contenders.Any())
-        {
-            return 0;
-        }
-
-        long sum = 0;
-
-        foreach (var possibility in contenders)
-        {
-            sum += FindValidCombination(possibility);
-        }
-
-
         return sum;
     }
 }
