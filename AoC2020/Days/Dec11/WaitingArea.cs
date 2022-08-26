@@ -56,7 +56,8 @@ public class WaitingArea
             {
                 var seat = WaitingAreaSeats.ElementAt(row).ElementAt(col);
                 seat.Neighbours = PartTwo ? CountVisibleNeighbours(row, col) :CountAdjacentNeighboursOfSeat(row, col);
-                newRow.Add(PartTwo ? seat.Next(5) : seat.Next(4) );
+                int neighbourThreshold = PartTwo ? 5 : 4;
+                newRow.Add(seat.Next(neighbourThreshold));
             }
             newGeneration.Add(newRow);
         }
