@@ -26,6 +26,5 @@ public class Solver : IDaySolver
         var boat = new BoatAndWaypoint();
         Console.WriteLine("Part 2: Test 1: " +  boat.GetManhattanDistance(testInput) + " (286)");
         Console.WriteLine("Part 2: " +  boat.GetManhattanDistance(input) );
-
     }
 }

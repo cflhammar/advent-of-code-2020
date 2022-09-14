@@ -22,9 +22,6 @@ public class BoatAndWaypoint
         _xWaypoint = 10;
         _yWaypoint = 1;
 
-        Console.WriteLine(_y + ", " + _x);
-        Console.WriteLine("wp: " + _xWaypoint + ", " +_yWaypoint);
-        
         foreach (var direction in directions)
         {
             var operation = direction.Substring(0, 1);
