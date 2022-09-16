@@ -7,6 +7,7 @@ namespace AoC2020.InputReaderHelpers;
 
 public class InputToStringMatrixEmptyRowAsDelimiter
 {
+    
     public List<List<String>> ReadToStringMatrix(string day, string file, string delimiter)
     {
         var projectPath = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory())!.ToString())!.ToString());
@@ -23,5 +24,6 @@ public class InputToStringMatrixEmptyRowAsDelimiter
         }
         
         return input;
-    } 
+    }
+    
 }
