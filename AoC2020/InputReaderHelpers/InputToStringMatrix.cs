@@ -16,6 +16,7 @@ public class InputToStringMatrix
 
         var lines = File.ReadLines(filePath);
         
+        
         foreach (var line in lines)
         {
             input.Add( line.Split(delimiter).ToList());            
