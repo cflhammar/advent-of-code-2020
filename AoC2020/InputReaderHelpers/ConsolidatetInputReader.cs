@@ -87,4 +87,17 @@ public class ConsolidatedInputReader
 
         return output;
     }
+
+    public List<string> RemoveAllInstancesOfChar(List<string> input,string c)
+    {
+        var output = new List<string>();
+        
+        foreach (var s in input)
+        {
+            output.Add( s.Replace(c,""));
+        }
+
+        return output;
+    }
+
 }
