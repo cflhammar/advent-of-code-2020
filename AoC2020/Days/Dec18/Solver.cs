@@ -20,12 +20,26 @@ public class Solver : IDaySolver
             index++;
         }
         
-        Console.WriteLine("Part 1: " + calc.SummarizeEquations(input));
+        Console.WriteLine("Part 1: " + calc.SummarizeEquations(input, false));
         
     }
 
     public void PartTwo()
     {
+        var testInput = ParseInput("part1test1");
+        var input = ParseInput("part1");
+        
+        var calc = new Calculator();
+        
+        int index = 0;
+        List<int> testResults = new List<int>{231,51,46,1445,669060,23340 };
+        foreach (var result in testResults)
+        {
+            Console.WriteLine($"Part 2: Test {index + 1}: " + calc.SolveEquation( calc.FixPredesence(testInput[index])) + $" ({result})");
+            index++;
+        }
+        
+        Console.WriteLine("Part 2: " + calc.SummarizeEquations(input, true));
         
     }
     
