@@ -100,4 +100,9 @@ public class ConsolidatedInputReader
         return output;
     }
 
+    public List<string> SplitStringByDelimeterToListOfString(string s, string del)
+    {
+        return s.Split(del).ToList();
+    }
+
 }
