@@ -8,23 +8,19 @@ public class Solver : IDaySolver
 
     public void PartOne()
     {
-        /*
         var testInput = ParseInput("part1test1");
         var img = new ImageAnalyzer(testInput);
         img.PlaceTiles();
         Console.WriteLine("Part 1: Test 1: " + img.GetSumOfCorners() + " (20899048083289)");
         img.CombineTilesInBoardToResult();
         Console.WriteLine("Part 2: Test 1: " + img.GetHabitatRoughness() + " (273)");
-        */
-
+        
         var input = ParseInput("part1");
-        var img = new ImageAnalyzer(input); 
+        img = new ImageAnalyzer(input); 
         img.PlaceTiles();
         Console.WriteLine("Part 1: " + img.GetSumOfCorners() );
         img.CombineTilesInBoardToResult();
         Console.WriteLine("Part 2: " + img.GetHabitatRoughness() );
-
-
     }
 
     public void PartTwo()
