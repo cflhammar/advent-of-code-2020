@@ -13,7 +13,7 @@ public class RecursiveCombatGame
         {
             rounds++;
             
-            //memorize one player deck is sufficient
+            //memorize one player deck is sufficient (and much faster)!
             var gameId = string.Join(",", player1); //+ ":" + string.Join(",", player2);
 
             // check for infinite loop
@@ -50,6 +50,7 @@ public class RecursiveCombatGame
                 }
             }
             else
+            // regular game
             {
                 (player1, player2) = NextRound(player1, player2);
             }
