@@ -63,58 +63,46 @@ public class CupsGameLinked
             currentValue = NextRound(currentValue);
         }
         
-        return GetSequence(); 
+        return GetSequence(rounds < 1000); 
     }
 
     private int NextRound(int currentValue)
     {
         var current = _dict[currentValue];
-        var pickedValues = new List<int>() {current.Next.Value, current.Next.Next.Value, current.Next.Next.Next.Value};
-            
+        var firstPicked = current.Next; // new List<int>() {current.Next.Value, current.Next.Next.Value, current.Next.Next.Next.Value};
+        var secondPicked = firstPicked.Next;
+        var thirdPicked = secondPicked.Next;
             
         var destinationValue = currentValue - 1;
         while (true)
         {
             if (destinationValue < 1) destinationValue = _dict.Count;
-            if (!pickedValues.Contains(destinationValue)) break;
+            if (firstPicked.Value != destinationValue && secondPicked.Value != destinationValue && thirdPicked.Value != destinationValue) break;
                 
             destinationValue--;
         }
 
-        current.Next = _dict[pickedValues.Last()].Next;
+        current.Next = thirdPicked.Next;
             
         var before = _dict[destinationValue];
         var after = _dict[destinationValue].Next;
 
-        before.Next = _dict[pickedValues.First()];
-        _dict[pickedValues.Last()].Next = after;
+        before.Next = firstPicked;
+        thirdPicked.Next = after;
 
         return current.Next.Value;
     }
-
-    private void Print(int currentValue)
-    {
-        var current = _dict[1];
-        for (int i = 0; i <= _dict.Count; i++)
-        {
-            if (current.Value == currentValue) Console.WriteLine("( " + current.Value + " )");
-            else Console.WriteLine(current.Value);
-
-            current = current.Next;
-        }
-        Console.WriteLine("----------");
-    }
     
-    private string GetSequence()
+    private string GetSequence(bool part1)
     {
         var cup = _dict[1];
         var sequence = "";
 
-        if (_dict.Count < 20)
+        if (part1)
         {
             for (int i = 0; i < _dict.Count; i++)
             {
-                sequence += cup.Value + ",";
+                sequence += cup.Value;
                 cup = cup.Next;
             }
         }
@@ -127,8 +115,7 @@ public class CupsGameLinked
             }
 
             var elements = sequence.Split(",");
-            sequence += ":" + long.Parse(elements[1]) * long.Parse(elements[2]) ;
-
+            sequence += ": " + long.Parse(elements[1]) * long.Parse(elements[2]) ;
         }
 
         return sequence;

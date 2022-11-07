@@ -25,10 +25,10 @@ public class Solver : IDaySolver
         var input = "871369452";
 
         var cupGame = new CupsGameLinked(testInput,1000000);
-        Console.WriteLine( cupGame.Play(10000000));
+        Console.WriteLine("Part 2: Test: " +  cupGame.Play(10000000) + " (149245887792)");
         
         cupGame = new CupsGameLinked(input,1000000);
-        Console.WriteLine( cupGame.Play(10000000));
+        Console.WriteLine("Part 2: " +  cupGame.Play(10000000) + " (359206768694)" );
     }
 
     private dynamic ParseInput(string filename)
