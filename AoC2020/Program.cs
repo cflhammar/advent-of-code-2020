@@ -1,4 +1,4 @@
-﻿using AoC2020.Days.Dec23;
+﻿using AoC2020.Days.Dec24;
 
 Solver solver = new Solver();
 solver.PartOne();
