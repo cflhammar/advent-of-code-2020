@@ -8,19 +8,30 @@ public class Solver : IDaySolver
 
     public void PartOne()
     {
-     //   var (testRules1, testMessages1) = ParseInput("part1test1");
-     //   var (testRules2, testMessages2) = ParseInput("part1test2"); 
+        var (testRules1, testMessages1) = ParseInput("part1test1");
         var (rules, messages) = ParseInput("part1");
 
-        var msgParser = new MessageParser(rules);
+        var msgParser = new MessageParser(testRules1);
         msgParser.FindPattern(0);
-        Console.WriteLine( msgParser.TestMessages(messages));
+        Console.WriteLine("Part 1: Test 1: " + msgParser.TestMessages(testMessages1) + " (2)");
+        
+        msgParser = new MessageParser(rules);
+        msgParser.FindPattern(0);
+        Console.WriteLine("Part 1: " + msgParser.TestMessages(messages));
         
     }
 
     public void PartTwo()
     {
+        var (testRules2, testMessages2) = ParseInput("part1test2"); 
+        var (rules, messages) = ParseInput("part1");
         
+        var msgParser = new LoopedMessageParser(testRules2);
+        Console.WriteLine("Part 2: "+msgParser.PartTwo(testMessages2) + " (12)");
+        
+        msgParser = new LoopedMessageParser(rules);
+        Console.WriteLine("Part 2: "+msgParser.PartTwo(messages));
+
     }
 
     private (Dictionary<int,List<string>>, List<string>) ParseInput(string filename)

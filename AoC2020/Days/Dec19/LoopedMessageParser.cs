@@ -2,15 +2,45 @@ using System.Text.RegularExpressions;
 
 namespace AoC2020.Days.Dec19;
 
-public class MessageParser
+public class LoopedMessageParser
 {
-    private readonly Dictionary<int, List<string>> _rules;
+    private Dictionary<int, List<string>> _rules;
     private string _pattern = "";
 
-    public MessageParser(Dictionary<int,List<string>> rules)
+    public LoopedMessageParser(Dictionary<int,List<string>> rules)
     {
         _rules = rules;
     }
+
+    public int PartTwo(List<string> messages)
+    {
+        FindPattern(42);
+        var fourTwo = "(?<fourTwo>" + _pattern+ ")+";
+        _pattern = "";
+        FindPattern(31);
+        var threeOne = "(?<threeOne>" + _pattern + ")+";
+
+        var pattern = "^" + fourTwo + threeOne + "$";
+        // 42 (1+x) + 42 (n) + 31 (n)     (n > 0)
+
+        var sum = 0;
+
+        foreach (var message in messages)
+        {
+            var result = Regex.Match(message, pattern);
+            if (result.Success)
+            {
+                var fourTwoMatches = result.Groups["fourTwo"].Captures.Count;
+                var threeOneMatches = result.Groups["threeOne"].Captures.Count;
+
+                if (fourTwoMatches > threeOneMatches && threeOneMatches > 0) sum++;
+
+            }
+        }
+
+        return sum;
+    }
+    
     
     public void FindPattern(int pos)
     {
@@ -26,7 +56,7 @@ public class MessageParser
 
                 foreach (var path in paths)
                 {
-                    FindPattern(int.Parse(path));
+                    FindPattern(int.Parse(path.ToString()));
                 }
             }
         }
@@ -38,13 +68,13 @@ public class MessageParser
             
             foreach (var path in paths1)
             {
-                FindPattern(int.Parse(path));
+                FindPattern(int.Parse(path.ToString()));
             }
             _pattern += "|";
             
             foreach (var path in paths2)
             {
-                FindPattern(int.Parse(path));
+                FindPattern(int.Parse(path.ToString()));
             }
             
             _pattern += ")";
@@ -60,7 +90,7 @@ public class MessageParser
             if (Regex.Match(message,_pattern).Success)
             {
                 sum++;
-            }
+            };
         }
 
         return sum;
